@@ -286,9 +286,6 @@ var TS = TS || (function(){
 	};
 
 	return {
-		//ver			: _version,
-		//name		: _name,
-		//blog		: _blog,
 		setUrl		: _setUrl,
 		setBlog 	: _setBlog,
 		setting		: _setting,
