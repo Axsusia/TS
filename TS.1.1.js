@@ -2,6 +2,39 @@ console.log("TS1.1");
 
 (function(window){
 
+	var Ts;
+
+	function Ts () {
+
+		
+
+		return this;
+	}
+	Ts.selecter;
+	Ts.module = function () {
+
+		var 
+		a = function () {
+
+		},
+		b = function () {
+
+		}
+		c = function () {
+
+		}
+		;
+
+		//Ts.module
+
+		return {
+
+		}
+
+	}
+
+	window["Ts"] = Ts;
+
 })(window)
 
 
