@@ -19,7 +19,11 @@ var log_setting = {
 	level : 0
 };
 
+/**
+scope 별로 level을 두는건? 
+*/
 seotory.log = function ( msg, level ) {
+	console.log( this );
 	if ( log_setting.use ) {
 		if ( window.console ) 
 			console.log ( msg );
@@ -76,14 +80,44 @@ seotory.ns('log.setting', function ( obj ) {
 });
 
 /**
+is.string
+is.function
+is.object
+is.function
+is.array
+is.boolean
+is.date
+is.integer
+
 string.is
-  > 비교 메소드
-
 string.isKorean
-  > 한국어인지?
-
 string.parse
-  > 특정 문자열 치환
+string.toUpper
+string.toLower
+string.size
+string.
+
+number.ls
+number.between
+number.min
+number.max
+number.toString
+number.
+
+object.is
+object.size
+object.find
+object.toString
+object.
+
+function.is
+function.addPrototype
+
+array.size
+array.index
+array.
+
+
 */
 seotory.ns('string.is' , function (  ) {
 
